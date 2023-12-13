@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.headerL{
+    display: flex;
+    align-items: center;
+}
+
+.headerL img{
+    width: 120px;
+    margin-left: 15px;
+}
+
+.headerR{
+    border: 1px;
+    border-radius: 5px;
+    background-color:orangered;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hero{
+    background-image: url(IMG/1.jpeg);
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0 30px 20px;
+}
+
+.hero h2{
+    color: white;
+    margin: 15px 0;
+    font-size: 50px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.05);
+    border: 1px solid gray;
+    padding: 10px;
+    width: 65%;
+    height: 20px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.search .SL{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.SL i{
+    margin: 10px;
+}
+
+.SL p{
+    font-size: 13px;
+}
+
+
+.SR{
+    border: 1px;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: orangered;
+}
+
+.Reco{
+   align-items: center;
+   text-align: center;
+}
+
+.Reco-img {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 35px;
+}
+
+.Reco-img img{
+    border-radius: 8px;
+}
+
+.Reco-img :not(:first-child){
+    margin-left: 20px;
+}
+
+.Reco-img-item{
+    position: relative;
+}
+
+.Reco-img-item img{
+    width: 400px;
+    height: 250px;
+}
+
+.Reco-des{
+    margin: 50px 0;
+}
+.Reco-des h2{
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.Reco-des p{
+    color: gray;
+}
+
+.Reco-name{
+    display: flex;
+    border: none;
+    border-radius: 3px;
+    width: fit-content;
+    background-color: white;
+    padding: 10px 20px;
+    position: absolute;
+    top: 200px;
+}
+
+.Reco-name i{
+    padding-left: 220px;
+}
+
+.new h2{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.brand{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.brand h2{
+    margin: 0;
+}
+
+.brand span i{
+    color: orangered;
+    margin-left: 33px;
+}
+
+.newImg{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.new-img{
+    position: relative;
+    width: 20%;
+}
+
+.new-img img{
+    width: 280px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.new-img h3{
+    color: rgb(48, 47, 47);
+}
+
+.new-img p{
+    color: gray;
+    font-size: 15px;
+}
+
+#heart{
+    color: white;
+    border: 1px solid hidden;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.app{
+    margin: 70px 40px;
+}
+
+.find{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 40px;
+}
+.find img{
+    width: 50%;
+    height: 400px;
+    border-radius: 3px;
+    box-shadow: 25px 20px rgb(248, 216, 156);
+}
+
+.find-words{
+    margin: 70px 0;
+}
+
+.find-words h2{
+    margin: 15px 0;
+    line-height: 35px;
+}
+
+.find-words p{
+    color: rgb(99, 96, 96);
+}
+
+.find-words h3{
+    color: orangered;
+    margin: 40px 0;
+}
+
+.footer{
+    background: #000;
+    color: white;
+    font-size: 14px;
+    padding: 80px 50px 20px;
+}
+
+.footer .row{
+    display: flex;
+}
+
+.footer img{
+    width: 150px;
+}
+
+.footer p {
+    line-height: 25px;
+}
+
+.footer h3{
+    margin-bottom: 20px;
+}
+
+.footer-col1, .footer-col2, .footer-col3, .footer-col4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col1{
+    flex-basis: 50%;
+}
+
+.footer-col2 li{
+    margin-bottom: 10px;
+}
+
+.footer-col3 li{
+    margin-bottom: 10px;
+}
+
+.footer-col4{
+    flex-basis: 10%;
+}
+
+.footer-col4 ul{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-col2, .footer-col3{
+    flex-basis: 30%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.copyright{
+    text-align: center;
+}
