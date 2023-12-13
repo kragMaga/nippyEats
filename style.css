@@ -150,8 +150,8 @@
     margin: 10px 0;
 }
 
-.brand h2{
-    margin: 0;
+.brand h3{
+    font-size: 14px;
 }
 
 .brand span i{
